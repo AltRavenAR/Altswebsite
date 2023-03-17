@@ -1,168 +1,114 @@
-html {
-  width:100%;
-  height: 100%;
-  box-sizing: border-box;
-  font-size: 16px;
-}
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
 
+    <title>About AltRaven</title>
 
-.imageone{
-  padding-top: 100px;
-  padding-bottom: 200px;
-  transition: filter 2s;
-}
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/aboutmestyle.css" />
 
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
 
-.imageone:hover {
-  filter: brightness(130%);
-}
-
-ul {
-  width: 250px;
-}
-
-li {
-  display: block;
-  width: 50%;
-  padding: 0px;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 18px;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-  height: 2px;
-  background-color: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #555555;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #333333;
   
-}
 
-div.background2 {
-  border-style: hidden;
-  border-color: #ea0059;
-  border-width: 0.5px;
-  outline: none;
-  border-color: #f70c5a;
-  box-shadow: 0 0 250px #f70c5a;
-  border-radius: 2px;
-  width: 50%;
-  justify-content: center;
-  margin: 0 auto;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Julius+Sans+One&family=Libre+Caslon+Text&family=Overlock+SC&family=Spectral:wght@200&display=swap" rel="stylesheet">    
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-h1,
-p,
-h2,
-a,
-h4,
-h3 {
-  color: white;
-  font-family: 'Spectral', serif;
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-}
-
-
-p {
-  font-family: 'Libre Caslon Text', serif;
-  text-align: center;
-}
-
-
-
-h1 {
-  animation-duration: 2s;
-  animation-name: fadeInDown;
-  transition-property: text-shadow;
-  transition-duration: 3s;
-}
-
-h1:hover {
-  text-shadow: #ff003c 1px 0 30px;
+       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
   
-}
+  
+  <body>
+    
+    
+    
+    <ul>
+      <li><a style="text-decoration: none" href="contact.html">Contact</a></li>
+      <li><a style="text-decoration: none" href="aboutme.html">About Me</a></li>
+    </ul>
 
-h2,
-h3,
-h4 {
-  animation-duration: 3s;
-  animation-name: fadeInDown;
-}
+    <!-- this is the start of content -->
+   
+    <img class="imageone" src="https://cdn.glitch.global/5b331fa2-797b-487d-a962-c953525a5f74/3000.png?v=1676756698550">
+    <div>
+      <h1 class="aboutme">About Me</h1>
 
+      <div class="firstP">
+        <p>Software Engineer who loves coffee</p>
+      </div>
+    </div>
 
+    <div class="background2">
+      <div>
+        <h2>Academics</h2>
+        <p>Currently a 4.0+ weighted</p>
+      </div>
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
+      <div>
+        <h2>Extracurriculars</h2>
+      </div>
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
+      <div class="flex-container">
+        <div class="gallery">
+          <h4>Google Code Next</h4>
+          <p class="textpadding">
+            Alt is learning how to be a successful software engineer through
+            Google Code Next. They have created applications using python and
+            websites using HTML and CSS.
+          </p>
+        </div>
 
-div.first {
-  padding-bottom: 30px;
-}
+        <div class="gallery">
+          <h4>EduVisa</h4>
+          <p class="textpadding">
+            Alt works with Eduvisa, they are informing others about college
+            literacy.
+          </p>
+        </div>
+      </div>
 
-div.firstP {
-  padding-top: 30px;
-}
+      <div class="flex-container">
+        <div class="gallery">
+          <h4>Girls Who Code</h4>
+          <p class="textpadding">
+            They have participated in both the summer program and self-paced
+            program from Girls Who Code. The are the president of a Girls Who
+            Code Club, and they are teaching club members how to code.
+          </p>
+        </div>
 
-body {
-  background-color: black;
-  text-align: center;
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
-}
+        <div class="gallery">
+          <h4>Tutoring</h4>
+          <p class="textpadding">
+            They teach students python programming, HTML and CSS, and algebra.
+            Alt creates personalized curriculum to each tutee as requested.
+          </p>
+        </div>
+      </div>
 
+      <div class="project">
+        <h2>Projects</h2>
 
+        <a href="https://altsportfolioar.netlify.app/"
+          >List of all of Alt's projects, including ones that aren't
+          professional</a
+        >
+      </div>
+    </div>
+  </body>
 
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-}
-
-
-
-div.gallery {
-  display: block;
-  width: 300px;
-  height: 300px;
-  flex-grow: 2;
-  border-style: solid;
-  border-color: #ea0059;
-  border-width: 0.5px;
-}
-
-
-
-
-
-footer {
-  background-color: #ea0059;
-}
-
-.project {
-  padding-bottom: 50px;
-}
-
-.textpadding {
-  padding-top: 70px;
-  padding-bottom: 50px;
-}
+  <footer></footer>
+</html>
