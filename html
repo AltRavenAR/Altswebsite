@@ -1,0 +1,168 @@
+html {
+  width:100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+.imageone{
+  padding-top: 100px;
+  padding-bottom: 200px;
+  transition: filter 2s;
+}
+
+
+.imageone:hover {
+  filter: brightness(130%);
+}
+
+ul {
+  width: 250px;
+}
+
+li {
+  display: block;
+  width: 50%;
+  padding: 0px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #555555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+  
+}
+
+div.background2 {
+  border-style: hidden;
+  border-color: #ea0059;
+  border-width: 0.5px;
+  outline: none;
+  border-color: #f70c5a;
+  box-shadow: 0 0 250px #f70c5a;
+  border-radius: 2px;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h1,
+p,
+h2,
+a,
+h4,
+h3 {
+  color: white;
+  font-family: 'Spectral', serif;
+
+}
+
+
+p {
+  font-family: 'Libre Caslon Text', serif;
+  text-align: center;
+}
+
+
+
+h1 {
+  animation-duration: 2s;
+  animation-name: fadeInDown;
+  transition-property: text-shadow;
+  transition-duration: 3s;
+}
+
+h1:hover {
+  text-shadow: #ff003c 1px 0 30px;
+  
+}
+
+h2,
+h3,
+h4 {
+  animation-duration: 3s;
+  animation-name: fadeInDown;
+}
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+div.first {
+  padding-bottom: 30px;
+}
+
+div.firstP {
+  padding-top: 30px;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+
+
+div.gallery {
+  display: block;
+  width: 300px;
+  height: 300px;
+  flex-grow: 2;
+  border-style: solid;
+  border-color: #ea0059;
+  border-width: 0.5px;
+}
+
+
+
+
+
+footer {
+  background-color: #ea0059;
+}
+
+.project {
+  padding-bottom: 50px;
+}
+
+.textpadding {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
