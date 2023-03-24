@@ -82,7 +82,7 @@ p {
 
 
 h1 {
-  animation-duration: 2s;
+  animation-duration: 8s;
   animation-name: fadeInDown;
   transition-property: text-shadow;
   transition-duration: 3s;
@@ -96,7 +96,7 @@ h1:hover {
 h2,
 h3,
 h4 {
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-name: fadeInDown;
 }
 
